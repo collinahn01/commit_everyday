@@ -12,7 +12,7 @@ function Update_Time() {
 RAND_NUM_HOUR=0
 RAND_NUM_MIN=0
 
-Update_Time()
+Update_Time
 
 while [ true ]
 do
@@ -54,7 +54,7 @@ do
         echo "sleeping $DIFF_SEC"
         sleep ${DIFF_SEC}s
 
-        Update_Time()
+        Update_Time
     fi
 
     sleep 1m

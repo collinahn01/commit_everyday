@@ -16,7 +16,7 @@ nohup ./auto_commit.sh > auto_commit.log 2>&1 &
 echo "subprocess executed"
 sleep 5s
 
-Update_Time()
+Update_Time
 
 while [ true ]
 do
@@ -58,7 +58,7 @@ do
         echo "sleeping $DIFF_SEC"
         sleep ${DIFF_SEC}s
 
-        Update_Time()
+        Update_Time
     fi
 
     sleep 1m
