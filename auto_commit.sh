@@ -12,10 +12,6 @@ function Update_Time() {
 RAND_NUM_HOUR=0
 RAND_NUM_MIN=0
 
-nohup ./auto_commit.sh > auto_commit.log 2>&1 &
-echo "subprocess executed"
-sleep 5s
-
 Update_Time()
 
 while [ true ]
