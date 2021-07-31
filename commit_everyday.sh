@@ -53,7 +53,7 @@ do
         echo "" >> ${TARGET_FILE}
         echo "${TARGET_MSG}" >> ${TARGET_FILE}
 
-        git add --quiet ${TARGET_FILE}
+        git add ${TARGET_FILE}
         sleep 5s
 
         git commit -m "automated commit, ${TARGET_FILE}"
