@@ -55,7 +55,11 @@ do
         git commit -m "automated commit, ${TARGET_FILE}"
         sleep 5s
 
+<<<<<<< HEAD
+        /home/pi/commit_everyday/git_auth.sh
+=======
         git push
+>>>>>>> 4d31671742d086cdbf26d5be5e3b66f4e9dda9e7
 
         Wait_Until_Tomorrow
         Update_Time
